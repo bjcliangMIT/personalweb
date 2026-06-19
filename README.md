@@ -6,7 +6,7 @@ Files:
 
 - `index.html` - the webpage
 - `styles.css` - styling
-- `headshot.webp` - bundled headshot from the public MIT Sloan profile
+- `portrait.jpg` - bundled headshot
 - `Chen_Liang_CV.pdf` - downloadable CV
 
 To preview locally:
@@ -22,7 +22,7 @@ To make it accessible to others:
 
 1. Upload the entire `faculty-site` folder to GitHub Pages, Netlify, Vercel, or any static host.
 2. Make sure `index.html` stays at the site root.
-3. Keep `styles.css`, `headshot.webp`, and `Chen_Liang_CV.pdf` in the same folder as `index.html`.
+3. Keep `styles.css`, `portrait.jpg`, and `Chen_Liang_CV.pdf` in the same folder as `index.html`.
 
 Fastest no-code option:
 

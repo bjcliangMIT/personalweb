@@ -217,9 +217,9 @@ a {
 .headshot {
   display: block;
   width: min(100%, 280px);
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 4 / 5;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 18%;
   border-radius: 22px;
   margin-bottom: 1rem;
   border: 1px solid rgba(31, 42, 46, 0.08);
@@ -247,6 +247,10 @@ a {
 .profile-list dd {
   margin: 0;
   font-weight: 600;
+}
+
+.profile-list a:hover {
+  color: var(--accent-deep);
 }
 
 .section {
@@ -357,6 +361,12 @@ a {
   gap: 1rem;
 }
 
+.teaching-row {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
 .timeline-item {
   display: grid;
   grid-template-columns: 140px minmax(0, 1fr);
@@ -401,7 +411,8 @@ a {
 
   .card-grid,
   .two-column,
-  .three-up {
+  .three-up,
+  .teaching-row {
     grid-template-columns: 1fr;
   }
 
