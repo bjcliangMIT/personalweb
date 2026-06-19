@@ -1,13 +1,13 @@
 :root {
-  --bg: #f4efe6;
-  --bg-soft: rgba(255, 251, 245, 0.86);
-  --paper: rgba(255, 253, 249, 0.94);
+  --bg: #e5efe8;
+  --bg-soft: rgba(246, 251, 247, 0.86);
+  --paper: rgba(252, 255, 253, 0.94);
   --ink: #1f2a2e;
   --muted: #56656a;
   --line: rgba(31, 42, 46, 0.12);
-  --accent: #aa4a2d;
-  --accent-deep: #7f2c18;
-  --sage: #d9e4dd;
+  --accent: #6a8f73;
+  --accent-deep: #3f6a51;
+  --sage: #d5e6d9;
   --shadow: 0 20px 60px rgba(51, 43, 24, 0.12);
   --radius-lg: 28px;
   --radius-md: 20px;
@@ -28,9 +28,9 @@ body {
   font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at top left, rgba(170, 74, 45, 0.18), transparent 28%),
-    radial-gradient(circle at top right, rgba(100, 133, 118, 0.18), transparent 22%),
-    linear-gradient(180deg, #efe6d8 0%, var(--bg) 34%, #efe8de 100%);
+    radial-gradient(circle at top left, rgba(106, 143, 115, 0.28), transparent 28%),
+    radial-gradient(circle at top right, rgba(149, 181, 157, 0.22), transparent 24%),
+    linear-gradient(180deg, #d9e9de 0%, var(--bg) 38%, #dcebe1 100%);
   line-height: 1.6;
 }
 
@@ -65,7 +65,7 @@ a {
 }
 
 .hero {
-  background: linear-gradient(180deg, rgba(255, 250, 244, 0.88), rgba(255, 252, 248, 0.92));
+  background: linear-gradient(180deg, rgba(241, 250, 243, 0.92), rgba(246, 253, 248, 0.96));
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: calc(var(--radius-lg) + 8px);
   box-shadow: var(--shadow);
@@ -142,7 +142,7 @@ a {
 }
 
 .lede {
-  max-width: 60ch;
+  max-width: 58ch;
   font-size: 1.07rem;
   color: var(--muted);
   margin: 1.25rem 0 0;
@@ -150,7 +150,9 @@ a {
 
 .lede-secondary {
   max-width: 58ch;
-  font-size: 0.98rem;
+  font-size: 1.07rem;
+  color: var(--muted);
+  margin: 1.25rem 0 0;
 }
 
 .actions,
@@ -170,6 +172,8 @@ a {
   border-radius: 999px;
   border: 1px solid transparent;
   font-weight: 700;
+  font-size: 1.07rem;
+  line-height: 1.6;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
 }
 
@@ -193,7 +197,7 @@ a {
 .feature-card,
 .contact-panel,
 .timeline-item {
-  background: var(--paper);
+  background: rgba(248, 254, 249, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.72);
   box-shadow: 0 18px 40px rgba(74, 57, 33, 0.08);
 }
@@ -211,7 +215,7 @@ a {
   inset: auto -20% -35% auto;
   width: 220px;
   height: 220px;
-  background: radial-gradient(circle, rgba(170, 74, 45, 0.18), transparent 68%);
+  background: radial-gradient(circle, rgba(106, 143, 115, 0.24), transparent 68%);
 }
 
 .headshot {
